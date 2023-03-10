@@ -28,7 +28,7 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
   + ##### Testing Instructions
     ##### [Change RR testing instructions](crt.md)
   + ##### Resources
-    [**changeRangeR**](pdf/singleSpeciesMetrics.pdf)
+    [**changeRangeR**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/singleSpeciesMetrics.pdf)
 
 
 * #### **"Alpha Div" component (new)**
@@ -37,8 +37,7 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
   + ##### Testing Instructions
     ##### [Alpha diversity testing instructions](crr.md)
   + ##### Resources
-    [**changeRangeR multiple species tutorial**](pdf/BiodivMetrics.pdf)<br>
-    [**changeRangeR diversity metrics using sparse matrices tutorial**](pdf/Diversity_Metrics_Using_Sparse_Matrices.pdf)
+    [**changeRangeR multiple species tutorial**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/BiodivMetrics.pdf)<br>
     
 
 

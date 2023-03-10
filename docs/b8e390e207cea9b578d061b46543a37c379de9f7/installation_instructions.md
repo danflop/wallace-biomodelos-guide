@@ -23,27 +23,13 @@ https://cran.r-project.org/bin/windows/Rtools/ (choose 64 bit unless you have a 
 
 ```{r}
 install.packages("devtools")
-devtools::install_github("cmerow/maskRangeR/maskRangeR", dependencies=TRUE)
-devtools::install_github("https://github.com/andrepazv/changeRangeR", dependencies= TRUE)
+install.packages("maskRangeR", dependencies=TRUE)
+install.packages("changeRangeR", dependencies= TRUE)
 # load packages
 library(maskRangeR)
 library(changeRangeR)
 ```
 
-** NOTE **: If you have issues installing changeRangeR because of path length, use:
-```{r}
-devtools::install_github("https://github.com/andrepazv/changeRangeR/tree/paths_fix2", dependencies= TRUE)
-# Load packages
-library(changeRangeR)
-```
-
-If you have issues with changeRangeR because of parallelsugar:
-```{r}
-devtools::install_github("nathanvan/parallelsugar")
-devtools::install_github("https://github.com/andrepazv/changeRangeR/tree/paths_fix2", dependencies= TRUE)
-# Load package
-library(changeRangeR)
-```
 
   + #### B. Install ENMeval
 ```{r}
@@ -57,7 +43,10 @@ devtools::install_github("https://github.com/wallaceEcoMod/wallace/tree/biomodel
 library(wallace)
 run_wallace()
 ```
+** NOTE **: If you have issues installing Wallace please reach out to the trainers befor the day of the workshop
+```{r}
 
+```
 ##### What is new in future v3.0?
 It incorporates several components for conservation analyses based on functionalities of the packages maskRangeR and changeRangeR.
 - EOO and AOO estimation
@@ -67,7 +56,7 @@ It incorporates several components for conservation analyses based on functional
 - Representation of distribution in polygons (e.g protected areas)
 - Mapping species richness and species endemism
 
-#### Important note!
+#### Important note! [Only after the workshop]
 After testing the development versions of Wallace, if you want to go back to the older version, you need to reinstall Wallace  from CRAN. You can use the following code:
 ```{r}
 install.packages("wallace")

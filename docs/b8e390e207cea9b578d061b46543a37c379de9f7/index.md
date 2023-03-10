@@ -6,8 +6,8 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
 * ### **Wallace v3**
   + ##### [Wallace installation instructions](installation_instructions.md)
   + ##### Resources
-    + [**Wallace Version 1 Tutorial**](https://wallaceecomod.github.io/vignettes/wallace_vignette.html)
-
+    + [**Wallace Version 2 Tutorial**](https://wallaceecomod.github.io/wallace/articles/tutorial-v2.html)
+    + [**Tutorial de Wallace Version 2 en español**](https://wallaceecomod.github.io/wallace/articles/tutorial-v2.html)
 
 * ### Data
   + [**Download prepared Datasets**](Data.md)<br><br>

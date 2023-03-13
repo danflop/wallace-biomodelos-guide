@@ -38,6 +38,7 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
 
 * ### **Help *Wallace* improve**
   + **Bug reporting**<br>
+  **Formulario de Google:** Si encuentra un error porfavor reportelo en [este] (https://forms.gle/gTW1FqDTaVQqTtFK7) link. 
   **Github:** If you find a bug, let us know! If you have a Github account, you can report issues [here](https://github.com/wallaceEcoMod/wallace/issues) <br>
   **Google group:** You can email the [Wallace Google Group](https://groups.google.com/g/wallaceEcoMod) using the subject [installation]. <br>
   

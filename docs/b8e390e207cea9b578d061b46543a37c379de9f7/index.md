@@ -16,17 +16,13 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
 * #### **"Mask" component (new)**
   *Mask* allows users to post-process the SDM you made in *Wallace* or imported with *UserSDM*.  Users are given the option to mask SDMs using remotely sensed data, user-specified shapefiles, or expert opinions. Additionally, *Mask* allows users to temporally match species occurrence records with remote sensing data (e.g., forest cover).
   
-  + #### Testing Instructions
-    ##### [Mask component testing instructions](mrw.md)
   + ##### Resources
     [**maskRangeR R package vignette**](https://cmerow.github.io/maskRangeR/maskRangeR_Tutorial.html)
 
 
 * #### **"Change RR" component (new)**
   *Change RR* allows users to calculate several indicators relevant for conservation assessments based on occurrence localities and/or SDMs. Such indicators include range size estimates and IUCN Area of Occupancy (AOO) and Extent of Occurrence (EOO). Additionally, *Change RR* allows users to calculate the percentage of overlap between species' distributions and different spatial features (e.g, protected areas, mining) and estimate how range size may change over time given various spatial processes (e.g. deforestation, ecological footprint).
-  
-  + ##### Testing Instructions
-    ##### [Change RR testing instructions](crt.md)
+
   + ##### Resources
     [**changeRangeR**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/singleSpeciesMetrics.pdf)
 

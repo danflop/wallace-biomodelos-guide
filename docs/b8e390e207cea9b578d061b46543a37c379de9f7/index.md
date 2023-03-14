@@ -1,51 +1,50 @@
-## Wallace Version 3 beta-testing instructions
+## Instrucciones de instalación y prueba para Wallace Versión 3
 
-If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet about your work.
+Si es usuario de Twitter, **por favor use nuestro  hashtag #WallaceEcoMod** para trinar sobre su trabajo.
 
 
 * ### **Wallace v3**
-  + ##### [Wallace installation instructions](installation_instructions.md)
+  + ##### [Instrucciones de instalación de Wallace](installation_instructions.md)
   + ##### Resources
     + [**Tutorial de Wallace Version 2 en español**](https://wallaceecomod.github.io/wallace/articles/tutorial-v2-esp.html)
 
 * ### Data
-  + [**Download prepared Datasets**](Data.md)<br><br>
+  + [**Descargar sets de datos de prueba**](Data.md)<br><br>
 
 
-* #### **"Mask" component (new)**
+* #### **Componente "Mask" (nuevo)**
   *Mask* allows users to post-process the SDM you made in *Wallace* or imported with *UserSDM*.  Users are given the option to mask SDMs using remotely sensed data, user-specified shapefiles, or expert opinions. Additionally, *Mask* allows users to temporally match species occurrence records with remote sensing data (e.g., forest cover).
   
   + ##### Resources
     [**maskRangeR R package vignette**](https://cmerow.github.io/maskRangeR/maskRangeR_Tutorial.html)
 
 
-* #### **"Change RR" component (new)**
+* #### **Componente "Indicators" (nuevo)**
   *Change RR* allows users to calculate several indicators relevant for conservation assessments based on occurrence localities and/or SDMs. Such indicators include range size estimates and IUCN Area of Occupancy (AOO) and Extent of Occurrence (EOO). Additionally, *Change RR* allows users to calculate the percentage of overlap between species' distributions and different spatial features (e.g, protected areas, mining) and estimate how range size may change over time given various spatial processes (e.g. deforestation, ecological footprint).
 
-  + ##### Resources
+  + ##### Más recursos (en inglés)
     [**changeRangeR**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/singleSpeciesMetrics.pdf)
 
 
-* #### **"Alpha Div" component (new)**
+* #### **Componente "Diversity" (nuevo)**
   *Alpha Div* allows users to calculate diversity indices based on multiple species' SDMs (either created in *Wallace* or user-uploaded via *UserSDM*). Currently, users can calculate species richness and species endemism. However, we plan to include tools to calculate metrics reflecting other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations.
   
-  + ##### Testing Instructions
-    ##### [Alpha diversity testing instructions](crr.md)
-  + ##### Resources
+
+  + ##### Más recursos (en inglés)
     [**changeRangeR multiple species tutorial**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/BiodivMetrics.pdf)<br>
     
 
 
-* ### **Help *Wallace* improve**
-  + **Bug reporting**<br>
-  **Formulario de Google:** Si encuentra un error porfavor reportelo en [este] (https://forms.gle/gTW1FqDTaVQqTtFK7) link. 
-  **Github:** If you find a bug, let us know! If you have a Github account, you can report issues [here](https://github.com/wallaceEcoMod/wallace/issues) <br>
-  **Google group:** You can email the [Wallace Google Group](https://groups.google.com/g/wallaceEcoMod) using the subject [installation]. <br>
+* ### **Ayudenos a mejorar *Wallace* **
+  + **Reporte de errores**<br>
+  **Formulario de Google:** Si encuentra un error porfavor reportelo en [este](https://forms.gle/gTW1FqDTaVQqTtFK7) link. 
+  **Github:** Si es usuario de Github, puede reportar los problemas [aquí](https://github.com/wallaceEcoMod/wallace/issues) <br>
+  **Google group:** Puede enviar un correo al [Grupo Google de Wallace](https://groups.google.com/g/wallaceEcoMod) <br>
   
-* ### **Suggestions**
-If you have another suggestion, please write to the Wallace email (wallaceEcoMod@gmail.com), specifying that you have been testing the development version.<br>
+* ### **Sugerencias**
+Si tiene otras sugerencias, porfavor envíe un correo al email de Wallace (wallaceEcoMod@gmail.com), especificando que esta usando la versión en desarrollo.<br>
 
-* ### Do you want to know more about Wallace?
+* ### ¿Quiere saber más sobre Wallace?
   + Please visit our [website](https://wallaceecomod.github.io/).
 
 

@@ -1,25 +1,28 @@
 # Instructions for Installation of dependencies for Wallace Version 3
 
-### **1. Installing R and RStudio for beginner R users**
-R is an open-source statistical software package that has the ability to do GIS operations among many other things. We use it in conjunction with RStudio, an easy way to manage R code.
+### **1. Instalación de R o actualización de paquetes**
+R es un paquete de software estadístico de código abierto que tiene la capacidad de realizar operaciones GIS, entre muchas otras cosas. Lo usamos junto con RStudio, una forma fácil de administrar el código R.
 
-To download R([Windows](https://cran.r-project.org/bin/windows/base/), [Mac](https://cran.rstudio.com/bin/macosx/))<br>
+Para descargar R ([Windows](https://cran.r-project.org/bin/windows/base/) y [Mac](https://cran.rstudio.com/bin/macosx/))<br>
             
-To download [RStudio](https://www.rstudio.com/products/rstudio/download/). Install RStudio Desktop (Free, Open Source) accepting the default pathways.<br>
+Para descargar [RStudio](https://www.rstudio.com/products/rstudio/download/).Instale RStudio Desktop (gratuito, código abierto) aceptando las rutas predeterminadas.
+<br>
 
-Now, you will need to tell RStudio where R lives. Open RStudio, go to Tools -> Global Options and change the R version by navigating to where you saved R. Unless you have a reason against it, you should use the 64 bit version of R (64 and 32 bit R are both downloaded).
+Ahora, deberá decirle a RStudio dónde vive R. Abra RStudio, vaya a Herramientas -> Opciones globales y cambie la versión R navegando hasta donde guardó R. A menos que tenga una razón en contra, debe usar la versión de 64 bits de R (se descargan tanto R de 64 como de 32 bits) ).
 
-**If you are a Windows user, please also install RTools from here - (*even if you have already installed R*)**<br>
+**Si es un usuario de Windows, también instale RTools desde aquí - (incluso si ya ha instalado R) **<br>
 https://cran.r-project.org/bin/windows/Rtools/ (choose 64 bit unless you have a reason not to). And follow the steps under "Putting Rtools on the PATH".
 
-### **2. Before loading Wallace, update R and R packages:**
-**Beginner R users**: Please update or install the latest version of R (v4.x) and update all packages (in RStudio, go to tools - check for package updates) before starting with the installation steps below. 
+### **2. Si ya tiene R instalado actualice R y sus paquetes R :**
+**Usuarios princpiantes de R**: Si su R es versión inferior a 4.0 actualícelo. Actualice todos los paquetes (en R Studio: vaya a herramientas - busque actualizaciones de paquetes) antes de comenzar con los pasos de instalación a continuación. Consulte “Más detalles sobre la instalación de R y RStudio para usuarios principiantes de R ” al final de este documento.
 
-**Advanced R users**: Update rgbif, paleobioDB, sf.
+**Usuarios avanzados de R **: Actualice rgbif, paleobioDB, sf.
 
-### **To install changeRangeR and maskRangeR (for new components)**
-##### Wallace v2.x (beta testing of what will become v3)
-  + ##### A. Install all necessary packages in their development versions. Agree to update all packages on installation.
+### **3. Ahora si la instalación de Wallace v2.x (pruebas beta de lo que será v3) y sus paquetes asociados:**
+
+
+
+  + ##### A. Primero instalar paquetes necesarios para los nuevos componentes. Aceptar actualizar los paquetes durante la instlaación si estos están en CRAN
 
 ```{r}
 install.packages("devtools")
@@ -31,19 +34,20 @@ library(changeRangeR)
 ```
 
 
-  + #### B. Install ENMeval
+  + #### B. Instalar ENMeval 2
 ```{r}
 install.packages("ENMeval")
 ```
 
-  + #### C. Install the development version of Wallace
+  + #### C. Instalar la versión en desarrollo de Wallace
 ```{r}
 devtools::install_github("https://github.com/wallaceEcoMod/wallace/tree/biomodelos", dependencies = TRUE)
-# Open Wallace
+# Abrir Wallace
 library(wallace)
 run_wallace()
 ```
-** NOTE **: If you have issues installing Wallace please reach out to the trainers befor the day of the workshop
+** ¡Importante! **: 
+Si tienen problemas con la instalación favor enviar un correo a Andrea Paz (paz.andreita@gmail.com) antes del inicio del taller
 ```{r}
 
 ```
@@ -56,17 +60,25 @@ It incorporates several components for conservation analyses based on functional
 - Representation of distribution in polygons (e.g protected areas)
 - Mapping species richness and species endemism
 
-#### Important note! [Only after the workshop]
-After testing the development versions of Wallace, if you want to go back to the older version, you need to reinstall Wallace  from CRAN. You can use the following code:
+#### ¡Importante solo despues del taller!
+
+Después de probar la versión de desarrollo de Wallace, si desea volver a la versión anterior (estable), debe instalar nuevamente Wallace y ENMeval de CRAN. Puede utilizar el siguiente código:
+Ojo : este código instala versiones anteriores de ambos paquetes
+
 ```{r}
 install.packages("wallace")
 ```
 
-### Report bugs
-If you find a bug, let us know!
-If you have a Github account, you can report issues [here](https://github.com/wallaceEcoMod/wallace/issues) <br>
-You can email the [Wallace Google Group](https://groups.google.com/g/wallaceEcoMod) using the subject [installation]. <br>
-If you have another suggestion, please write to the Wallace email (wallaceEcoMod@gmail.com), specifying that you have been testing the development version.
 
-### Do you want to know more about Wallace?
-#### Please visit our [website](https://wallaceecomod.github.io/).
+
+* ### **Ayudenos a mejorar *Wallace* **
+  + **Reporte de errores**<br>
+  **Formulario de Google:** Si encuentra un error porfavor reportelo en [este](https://forms.gle/gTW1FqDTaVQqTtFK7) link. 
+  **Github:** Si es usuario de Github, puede reportar los problemas [aquí](https://github.com/wallaceEcoMod/wallace/issues) <br>
+  **Google group:** Puede enviar un correo al [Grupo Google de Wallace](https://groups.google.com/g/wallaceEcoMod) <br>
+  
+* ### **Sugerencias**
+Si tiene otras sugerencias, porfavor envíe un correo al email de Wallace (wallaceEcoMod@gmail.com), especificando que esta usando la versión en desarrollo.<br>
+
+* ### ¿Quiere saber más sobre Wallace?
+  + Visite nuestra [PaginaWeb](https://wallaceecomod.github.io/) en inglés.

@@ -54,13 +54,13 @@ Si tienen problemas con la instalación favor enviar un correo a Andrea Paz (paz
 ##### What is new in future v3.0?
 
 En este taller estarán viendo una versión preliminar de lo que será Wallace 3.0 una versión que además de las novedades de 2.0 incluye varios componentes para análisis de conservación con la incorporación de funcionalidad de los paquetes maskRangeR y changeRangeR. Para más información pueden ver los siguientes videos [https://youtu.be/uBbYqQLRirU, https://youtu.be/eXqyctCFJ0U, https://youtu.be/mfBwqnate88 ]
--Análisis de extensión de ocurrencia (EOO)  y área de ocupación (AOO)
--Enmascaramiento de modelos con shapefiles (PNN por ejemplo)
--Adición o remoción de áreas de presencia post-modelamiento
--Cambios en distribución en el tiempo dado intervenciones (Deforestación por ejemplo)
--Representatividad en polígonos (Áreas protegidas por ejemplo)
--Mapeo de riqueza de especies
--Mapeo de endemismo 
+- Análisis de extensión de ocurrencia (EOO)  y área de ocupación (AOO)
+- Enmascaramiento de modelos con shapefiles (PNN por ejemplo)
+- Adición o remoción de áreas de presencia post-modelamiento
+- Cambios en distribución en el tiempo dado intervenciones (Deforestación por ejemplo)
+- Representatividad en polígonos (Áreas protegidas por ejemplo)
+- Mapeo de riqueza de especies
+- Mapeo de endemismo 
 - En el futuro también diversidad y endemismo filogenético
 
 

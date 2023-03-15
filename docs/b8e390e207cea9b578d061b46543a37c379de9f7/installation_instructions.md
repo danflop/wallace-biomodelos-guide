@@ -47,7 +47,6 @@ devtools::install_github("https://github.com/wallaceEcoMod/wallace/tree/biomodel
 library(wallace)
 run_wallace()
 ```
-```{r}
 ** ¡Importante! **: 
 Si tienen problemas con la instalación favor enviar un correo a Andrea Paz (paz.andreita@gmail.com) antes del inicio del taller
 

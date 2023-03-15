@@ -1,4 +1,4 @@
-# Instructions for Installation of dependencies for Wallace Version 3
+# Instrucciones para la instalación de Wallace V. 3 y sus dependencias
 
 ### **1. Instalación de R o actualización de paquetes**
 R es un paquete de software estadístico de código abierto que tiene la capacidad de realizar operaciones GIS, entre muchas otras cosas. Lo usamos junto con RStudio, una forma fácil de administrar el código R.
@@ -11,7 +11,7 @@ Para descargar [RStudio](https://www.rstudio.com/products/rstudio/download/).Ins
 Ahora, deberá decirle a RStudio dónde vive R. Abra RStudio, vaya a Herramientas -> Opciones globales y cambie la versión R navegando hasta donde guardó R. A menos que tenga una razón en contra, debe usar la versión de 64 bits de R (se descargan tanto R de 64 como de 32 bits) ).
 
 **Si es un usuario de Windows, también instale RTools desde aquí - (incluso si ya ha instalado R) **<br>
-https://cran.r-project.org/bin/windows/Rtools/ (choose 64 bit unless you have a reason not to). And follow the steps under "Putting Rtools on the PATH".
+https://cran.r-project.org/bin/windows/Rtools/ (escoja 64 bit a no ser que tenga una razón para no hcaerlo.
 
 ### **2. Si ya tiene R instalado actualice R y sus paquetes R :**
 **Usuarios princpiantes de R**: Si su R es versión inferior a 4.0 actualícelo. Actualice todos los paquetes (en R Studio: vaya a herramientas - busque actualizaciones de paquetes) antes de comenzar con los pasos de instalación a continuación. Consulte “Más detalles sobre la instalación de R y RStudio para usuarios principiantes de R ” al final de este documento.
@@ -25,7 +25,7 @@ https://cran.r-project.org/bin/windows/Rtools/ (choose 64 bit unless you have a 
   + ##### A. Primero instalar paquetes necesarios para los nuevos componentes. Aceptar actualizar los paquetes durante la instlaación si estos están en CRAN
 
 ```{r}
-install.packages("devtools")
+
 install.packages("maskRangeR", dependencies=TRUE)
 install.packages("changeRangeR", dependencies= TRUE)
 # load packages
@@ -41,24 +41,30 @@ install.packages("ENMeval")
 
   + #### C. Instalar la versión en desarrollo de Wallace
 ```{r}
+install.packages("devtools")
 devtools::install_github("https://github.com/wallaceEcoMod/wallace/tree/biomodelos", dependencies = TRUE)
 # Abrir Wallace
 library(wallace)
 run_wallace()
 ```
+```{r}
 ** ¡Importante! **: 
 Si tienen problemas con la instalación favor enviar un correo a Andrea Paz (paz.andreita@gmail.com) antes del inicio del taller
-```{r}
+
 
 ```
 ##### What is new in future v3.0?
-It incorporates several components for conservation analyses based on functionalities of the packages maskRangeR and changeRangeR.
-- EOO and AOO estimation
-- Masking of SDMs with shapefiles (e.g. protected areas)
-- Adding or removing areas from SDM based on expert knowledge
-- Plotting changes in distribution through time given interventions (e.g. deforestation)
-- Representation of distribution in polygons (e.g protected areas)
-- Mapping species richness and species endemism
+
+En este taller estarán viendo una versión preliminar de lo que será Wallace 3.0 una versión que además de las novedades de 2.0 incluye varios componentes para análisis de conservación con la incorporación de funcionalidad de los paquetes maskRangeR y changeRangeR. Para más información pueden ver los siguientes videos [https://youtu.be/uBbYqQLRirU, https://youtu.be/eXqyctCFJ0U, https://youtu.be/mfBwqnate88 ]
+-Análisis de extensión de ocurrencia (EOO)  y área de ocupación (AOO)
+-Enmascaramiento de modelos con shapefiles (PNN por ejemplo)
+-Adición o remoción de áreas de presencia post-modelamiento
+-Cambios en distribución en el tiempo dado intervenciones (Deforestación por ejemplo)
+-Representatividad en polígonos (Áreas protegidas por ejemplo)
+-Mapeo de riqueza de especies
+-Mapeo de endemismo 
+- En el futuro también diversidad y endemismo filogenético
+
 
 #### ¡Importante solo despues del taller!
 

@@ -51,7 +51,6 @@ run_wallace()
 Si tienen problemas con la instalación favor enviar un correo a Andrea Paz (paz.andreita@gmail.com) antes del inicio del taller
 
 
-```
 ##### What is new in future v3.0?
 
 En este taller estarán viendo una versión preliminar de lo que será Wallace 3.0 una versión que además de las novedades de 2.0 incluye varios componentes para análisis de conservación con la incorporación de funcionalidad de los paquetes maskRangeR y changeRangeR. Para más información pueden ver los siguientes videos [https://youtu.be/uBbYqQLRirU, https://youtu.be/eXqyctCFJ0U, https://youtu.be/mfBwqnate88 ]

@@ -13,24 +13,24 @@ Si es usuario de Twitter, **por favor use nuestro  hashtag #WallaceEcoMod** para
 
 
 * #### **Componente "Mask" (nuevo)**
-  *Mask* allows users to post-process the SDM you made in *Wallace* or imported with *UserSDM*.  Users are given the option to mask SDMs using remotely sensed data, user-specified shapefiles, or expert opinions. Additionally, *Mask* allows users to temporally match species occurrence records with remote sensing data (e.g., forest cover).
+  *Mask* permite a los usuarios realizar el post-procesamiento de los MDE que han sido construidos en *Wallace* o importados en el módulo *UserSDM*.  Los usuarios tienen la opción de enmarscarar sus modelos de distribución de especies (MDE) usando datos de sensoramiento remoto, poligonos proveidos por los usuarios o las opiniones de expertos. Adicionalmente, *Mask* permite a los usuarios hacer una asociacion temporalamente explícita entre las ocurrencias y datos de sensoramiento remoto (p.ej. cobertura de bosque)
   
-  + ##### Resources
-    [**maskRangeR R package vignette**](https://cmerow.github.io/maskRangeR/maskRangeR_Tutorial.html)
+  + ##### Tutorial (en inglés)
+    [**Tutorial del paquete de R maskRangeR  **](https://cmerow.github.io/maskRangeR/maskRangeR_Tutorial.html)
 
 
 * #### **Componente "Indicators" (nuevo)**
-  *Change RR* allows users to calculate several indicators relevant for conservation assessments based on occurrence localities and/or SDMs. Such indicators include range size estimates and IUCN Area of Occupancy (AOO) and Extent of Occurrence (EOO). Additionally, *Change RR* allows users to calculate the percentage of overlap between species' distributions and different spatial features (e.g, protected areas, mining) and estimate how range size may change over time given various spatial processes (e.g. deforestation, ecological footprint).
+  *Indicators* permite a los usuarios calcular diferentes idnidcadores relevantes para las evaluaciones de conservación basadas en datos de ocurrencia y/o MDE. Estos indicadores incluyen la estimacion del rango de distribución y el área de ocupación (AOO) y la extension de ocurrencia (EOO) de la UICN. Adicionalmente, *Indicators* permite a los usuarios calcular el porcentaje de sobrelapamiento entre las distribuciones de las especies y diferentes elementos espaciales (p.ej, áreas protegidas, minería) y estimar como el rango de distribución puede cambiar a lo largo del tiempo dado diferentes procesos espaciales (p.ej, deforestación, huella ecológica).
 
-  + ##### Más recursos (en inglés)
-    [**changeRangeR**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/singleSpeciesMetrics.pdf)
+  + ##### Tutorial (en inglés)
+    [**Tutorial del paquete de R changeRangeR**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/singleSpeciesMetrics.pdf)
 
 
 * #### **Componente "Diversity" (nuevo)**
-  *Alpha Div* allows users to calculate diversity indices based on multiple species' SDMs (either created in *Wallace* or user-uploaded via *UserSDM*). Currently, users can calculate species richness and species endemism. However, we plan to include tools to calculate metrics reflecting other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations.
+  *Diversity* permite a los usuarios calcular indices de diversidad basados en múltiples MDEs (construidos en *Wallace* or añadidos por el usuario en el componente *Mask*). Actualmente, los usuarios pueden calcular la riqueza de especies y el endemismo. Sin embargo, planeamos incluir herramientas para calcular metricas que reflejen otras dimensiones de la biodiversidad; en particular, diversidad y endemismo filogenético.
   
 
-  + ##### Más recursos (en inglés)
+  + ##### Tutorial (en inglés)
     [**changeRangeR multiple species tutorial**](https://cran.r-project.org/web/packages/changeRangeR/vignettes/BiodivMetrics.pdf)<br>
     
 

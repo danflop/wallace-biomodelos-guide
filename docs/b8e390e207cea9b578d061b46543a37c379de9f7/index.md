@@ -36,7 +36,7 @@ Si es usuario de Twitter, **por favor use nuestro hashtag #WallaceEcoMod** para 
     
 
 
-### **Ayúdenos a mejorar *Wallace***
+### **Ayúdenos a mejorar Wallace**
   #### **Reporte de errores**<br>
   + **Formulario de Google:** Si encuentra un error por favor repórtelo en [este](https://forms.gle/gTW1FqDTaVQqTtFK7) link. 
   + **GitHub:** Si es usuario de GitHub, puede reportar los problemas [aquí](https://github.com/wallaceEcoMod/wallace/issues) <br>
